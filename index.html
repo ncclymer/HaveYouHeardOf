@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"> -->
+    <link rel="stylesheet" href="css/style.css">
+    <title>Have you heard of?</title>
+
+</head>
+
+<body>
+    <header class="title-bar">Welcome to the music page!</header>
+
+    <div class="input-field">
+        <input id="search" type="text" placeholder="Enter an artist or band name">
+        <button id="fetch-button">Search</button>
+    </div>
+
+    <div class="row-center-align">
+        <div class="content center">
+            <div class="row">
+                <div class="top-songs css">Top Songs:
+                    <div id="songs">
+                        <div class="artist"></div>
+                    </div>
+                </div>
+
+                <div class="col s12 l2"></div>
+
+                <!-- <div class="col s12 m6 l3 #e1bee7 purple lighten-4 lyrics-section">lyrics:
+            <div id="lyrics">
+                <div class ="text"></div>
+            </div>
+        </div> -->
+
+                <div class="concert-dates">Concert Dates:
+                    <div id="concert">
+                        <div class="events"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- YouTube Videos -->
+    <footer>
+        <div class="row">
+            <div class="video-section">Music Videos:
+                <section id="video-results">
+                    <div class="video1">
+                        <iframe id="vid1" width="300" height="250" title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen>
+                        </iframe>
+                    </div>
+                    <div class="video2">
+                        <iframe id="vid2" width="300" height="250" title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen>
+                        </iframe>
+                    </div>
+                    <div class="video3">
+                        <iframe id="vid3" width="300" height="250" title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen>
+                        </iframe>
+                    </div>
+                    <div class="video4">
+                        <iframe id="vid4" width="300" height="250" title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen>
+                        </iframe>
+                    </div>
+                    <div class="video5">
+                        <iframe id="vid5" width="300" height="250" title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen>
+                        </iframe>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </footer>
+
+
+    </div>
+    <script src="https://apis.google.com/js/api.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>

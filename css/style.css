@@ -1,0 +1,83 @@
+body {
+    /* background-image: url(../assets/red-rocks.jpg); */
+    background-size: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+.title-bar {
+   
+    border: solid black 3px;
+    height: 20%;
+    width: 100%;
+    font-size: 4rem;
+}
+
+.input-field {
+    margin: 10px;
+}
+
+#search {
+    font-size: 1rem;
+    text-align: justify;
+ }
+
+::placeholder {
+    color: red;
+}
+
+#fetch-button {
+    background-color: rgb(250, 117, 8);
+    border-radius: 30px;
+}
+
+.top-songs {
+    border: solid black 3px;
+     border-radius: 30px;
+}
+
+/* .lyrics-section {
+    display: flex;
+    flex-wrap: wrap;
+    border: solid black 3px;
+    border-radius: 30px;
+    margin-right: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+} */
+
+.concert-dates {
+    border: solid black 3px;
+    border-radius: 30px;
+}
+
+.video-section {
+    border: solid black 3px;  
+    border-radius: 30px;
+}
+
+.event-Place{
+    font-weight: bolder;
+}
+.eventTicket{
+    background-image: url("../assets/ticket.jpg");
+    background-size: cover;
+    text-decoration: underline;
+    color: rgb(250, 117, 8)}
+
+.hearItNow{
+    text-decoration: underline;
+    color: rgb(250, 117, 8)
+}
+.playBtn{
+    max-width: 20px;
+}
+
+  
+/* 
+@media screen and (max-width: 1420px) {
+    .top-songs, .lyrics-section, .concert-dates, .video-section {flex-direction: row;}} 
+
+
+@media screen and (max-width: 735px) {
+    .top-songs, .lyrics-section, .concert-dates, .video-section {width: 100%;}} 
+ */
